@@ -33,24 +33,24 @@ body {
 
 #onoff {
   position: absolute;
-  top: 56%;
-  right: 35%;
-  padding: 20px 20px;
+  top: 20%;
+  right: 40%;
+  padding: 40px 40px;
   opacity: .0;
 }
 
 .onoff button {
- padding: 20px 20px;
+ padding: 40px 55px;
 
  opacity: .0;
 }
 
 .ekran {
   position: absolute;
-  background-color: #01be00;
-  padding: 65px 70px;
-  top: 43%;
-  left: 16.5%;
+  /* background-color: rgb(170, 176, 153); */
+  padding: 95px 70px;
+  top: 50%;
+  left: 26.5%;
 }
 
 .channel {
@@ -66,11 +66,10 @@ body {
 .channel input {
   text-align: center;
   border: none;
-  border-bottom: 2px solid black;
-  background-color: #01be00;
-  padding: 25px 9px;
-  font-size: 25px;
-  width: 120px;
+  background-color: rgba(170, 176, 153, 0.0);
+  padding: 38px 6px;
+  font-size: 24px;
+  /* width: 100%; */
 }
 
 .button {
@@ -82,6 +81,12 @@ body {
   width: 60px;
   height: 30px;
   position: absolute;
-  top: 120%;
-  left: -5%;
+  top: 172%;
+  left: 26.5%;
+}
+
+.submit {
+
+  top: 172%;
+  left: 26.5%;
 }
